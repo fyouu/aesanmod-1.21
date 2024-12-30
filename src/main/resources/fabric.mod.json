@@ -11,7 +11,7 @@
 		"homepage": "https://discord.gg/sigmasonly/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "MIT",
+	"license": "CC0-1.0",
 	"icon": "assets/aesanmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
