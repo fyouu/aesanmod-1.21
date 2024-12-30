@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "aesanmod",
+	"version": "${version}",
+	"name": "aesanmod",
+	"description": "idk what this mod is gonna turn out like good luck lmao",
+	"authors": [
+		"@aesan47 on discord"
+	],
+	"contact": {
+		"homepage": "https://discord.gg/sigmasonly/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/aesanmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"aesansmod.mod.Aesanmod"
+		],
+		"fabric-datagen": [
+			"aesansmod.mod.AesanmodDataGenerator"
+		],
+		"client": [
+			"aesansmod.mod.AesanModClient"
+		]
+	},
+	"mixins": [
+		"aesanmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
